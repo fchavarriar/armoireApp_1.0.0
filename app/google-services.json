@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "770434834556",
+    "firebase_url": "https://armoirebd-341ac-default-rtdb.firebaseio.com",
+    "project_id": "armoirebd-341ac",
+    "storage_bucket": "armoirebd-341ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770434834556:android:6487d6e08a9a25fe3f29f9",
+        "android_client_info": {
+          "package_name": "com.androidkotlin.armoireapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "770434834556-o61qa55i9hbbvhn9i3bsbuct4dg8n605.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.androidkotlin.armoireapp",
+            "certificate_hash": "c8ff0a1024fe859b7d7ab62fee725c7a2ca99732"
+          }
+        },
+        {
+          "client_id": "770434834556-o8osk361ju5vm1b90vpfbokobdli7oht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoDJ0RpuXuP4NKgOe1MeoUaQtjPT5LwxQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "770434834556-o8osk361ju5vm1b90vpfbokobdli7oht.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

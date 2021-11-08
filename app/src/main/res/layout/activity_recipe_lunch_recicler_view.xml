@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".RecipeLunchReciclerViewActivity">
+    <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardElevation="16dp"
+            app:cardUseCompatPadding="true"
+            app:cardCornerRadius="20dp">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/ultra_white">
+
+            <ImageView
+                    android:id="@+id/image_reciclerview_recipe_lunch"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:layout_gravity="center_vertical"
+                    android:scaleType="centerCrop"/>
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+                <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/buttondeleterecipes_rw_lunch"
+                        android:layout_marginRight="10dp"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:checkable="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:layout_gravity="center"
+                >
+                    <RelativeLayout
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:gravity="center_horizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                        <ImageView
+
+                                app:srcCompat="@drawable/ic_fi_br_trash"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                        </ImageView>
+
+                    </RelativeLayout>
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                        android:id="@+id/buttonmodifyrecipes_rw_lunch"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:checkable="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:layout_gravity="center">
+                    <RelativeLayout
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginRight="15dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal">
+                        <ImageView
+
+                                app:srcCompat="@drawable/ic_fi_br_edit"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                        </ImageView>
+
+                    </RelativeLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+            </LinearLayout>
+            <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/name_reciclerview_recipe_lunch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:layout_margin="5dp"
+                    android:ems="10"
+                    android:textAlignment="center"
+                    android:background="@color/ultra_white"
+                    android:gravity="center_horizontal"
+                    android:textAppearance="?attr/textAppearanceHeadline4"/>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="20dp"
+                    android:inputType="textMultiLine"
+                    android:gravity="start|top"
+                    android:ems="10"
+                    android:background="@color/ultra_white"
+                    android:id="@+id/description_reciclerview_recipe_lunch"/>
+            <ListView
+                    android:id="@+id/list_ingredient_reciclerview_recipe_lunch"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    android:layout_margin="5dp">
+            </ListView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

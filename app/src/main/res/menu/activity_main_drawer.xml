@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      android:backgroundTint="@color/ultra_white"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/ic_fi_br_home"
+                android:title="Inicio"/>
+        <item
+                android:id="@+id/nav_calendar"
+                android:icon="@drawable/ic_fi_br_calendar"
+                android:title="Organizador"/>
+        <item
+                android:id="@+id/nav_shop"
+                android:icon="@drawable/ic_fi_br_shopping_bag"
+                android:title="Mis compras"/>
+        <item
+                android:id="@+id/nav_lunch"
+                android:icon="@drawable/ic_fi_br_lunch"
+                android:title="Menu"/>
+        <item
+                android:id="@+id/nav_articles"
+                android:icon="@drawable/ic_fi_br_food"
+                android:title="Articulos"/>
+        <item
+                android:id="@+id/nav_recipes"
+                android:icon="@drawable/ic_fi_br_recipe"
+                android:title="Recetas"/>
+        <item
+            android:id="@+id/nav_marks"
+            android:icon="@drawable/ic_fi_br_playing_cards"
+            android:title="Marcas"/>
+        <item
+                android:id="@+id/nav_sing_out"
+                android:icon="@drawable/ic_fi_br_sign_out"
+                android:title="Cerrar Sesion"/>
+    </group>
+</menu>
